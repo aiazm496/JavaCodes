@@ -16,12 +16,17 @@ public class Person {
         if(this.age<30){
         this.age = this.age+1;
     }
-}
+    }
     public int returnAge(){    //getter
         return this.age;
     }
     public String getName(){ //getter
         return this.name;
+    }
+
+
+    public String toString(){
+        return this.name +",age " + this.age + " years.";
     }
 
     public boolean isLegalAge(){
