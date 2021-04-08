@@ -32,6 +32,8 @@ public class BookPrint {
             String title = arr[0];
             int pages = Integer.parseInt(arr[1]);
             int pubYear = Integer.parseInt(arr[2]);
+            //Book b1 = new Book(title,pages,pubYear);
+            //list3.add(b1) or use new directly
             list3.add(new Book(title,pages,pubYear));
         }
         String input = scanner.nextLine();
