@@ -8,5 +8,8 @@ public class HealthQ {
         h.feed(p1);
         System.out.println("The weight of " + p1.getName() + " is " + h.weigh(p1));
         System.out.println("No of weighings: " + h.getWeighings());
+
     }
 }
+
+
