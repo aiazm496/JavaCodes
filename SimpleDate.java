@@ -11,7 +11,6 @@ public class SimpleDate {
         this.year = year;
     }
 
-
     public int getDay() {
         return this.day;
     }
@@ -44,6 +43,7 @@ public class SimpleDate {
         }
         return  false;
     }
+
 
     public String toString(){
         return this.day + "." + this.month + "." + this.year;
