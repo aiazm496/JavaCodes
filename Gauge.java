@@ -21,6 +21,7 @@ public class Gauge {
     public int getValue(){
         return  this.value;
     }
+
     public boolean full(){
         return this.value == 5;
     }
