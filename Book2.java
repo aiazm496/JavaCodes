@@ -5,6 +5,7 @@ public class Book2 {
     private int year;
     private String content;
 
+
     public Book2(String name, int year, String content) {
         this.name = name;
         this.year = year;
